@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  .features-section-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: $m) {
+  .features-section-list {
+    display: flex;
+    gap: 30px;
+    padding: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+  }
+}
